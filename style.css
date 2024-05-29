@@ -1,0 +1,26 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+
+form {
+    display: flex;
+    gap: 5px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todos-container {
+    height: 50vh;
+}
+
+.todos {
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #66d1ff;
+}
